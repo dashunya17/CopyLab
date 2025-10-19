@@ -164,6 +164,7 @@ public class FileCopier {
             long duration = endTime - startTime;
             System.out.println("Общее время выполнения: " + duration + " мс");
 
+
     }
         public static void main(String[] args) {
             String sourceFile1 = "C:\\Users\\PC\\Downloads\\labCopy1.txt";
