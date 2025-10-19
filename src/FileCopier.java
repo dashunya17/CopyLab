@@ -165,7 +165,6 @@ public class FileCopier {
             System.out.println("Общее время выполнения: " + duration + " мс");
 
     }
-    public class Main {
         public static void main(String[] args) {
             String sourceFile1 = "C:\\Users\\PC\\Downloads\\labCopy1.txt";
             String destFile1 = "backup/labCopy1.txt";
@@ -180,7 +179,7 @@ public class FileCopier {
             String destFile3 = "backup/labCopy.txt";
             FileCopier.copyFile(sourceFile3, destFile3);
 
-            System.out.println("Паралледбное копирование двух файлов");
+            System.out.println("Параллельное копирование двух файлов");
             FileCopier.paralCopyTwoFiles(sourceFile1, destFile1,sourceFile2,destFile2);
 
             long startTime = System.currentTimeMillis();
@@ -191,4 +190,3 @@ public class FileCopier {
             }
         }
     }
-}
